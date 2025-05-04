@@ -1,0 +1,91 @@
+h1 {
+  font-size: 3rem;
+  color: hsl(295, 61%, 7%);
+  font-weight: 700;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: hsl(295, 61%, 7%);
+  padding-top: 1rem;
+}
+
+.answer {
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: hsl(291, 17%, 54%);
+  padding-bottom: 1rem;
+}
+
+body {
+  background-color: rgb(242, 228, 255);
+  font-family: 'Work Sans', sans-serif;
+  margin: 0;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  max-width: 550px;
+  width: 100%;
+  font-family: 'Work Sans', sans-serif;
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 0 auto;
+  margin-top: -450px;
+}
+
+.faqs {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  text-align: center;
+  font-size: 11px;
+  color: hsl(291, 17%, 54%);
+  margin-top: 2rem;
+  }
+
+hr {
+  color: hsl(291, 100%, 97%);
+  border: 1px solid hsl(291, 100%, 97%);
+}
+
+.icon-star {
+  padding-right: 1rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vh;
+  padding: 20rem;
+}
+
+.top-bg {
+  background-image: url('./assets/images/background-pattern-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 450px; /* or 400px depending on the design */
+}
